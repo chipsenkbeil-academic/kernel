@@ -7,6 +7,7 @@ A basic kernel designed to learn how it works.
 
 Tools Used
 ----------
-
-
+NASM  v2.10.09
+GRUB  v???
+BOCHS v2.6.2-1
 
