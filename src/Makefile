@@ -3,10 +3,12 @@
 # The only one that needs changing is the assembler 
 # rule, as we use nasm instead of GNU as.
 
-SOURCES=boot.o
+SOURCES=boot.o main.o
 
-CFLAGS=
-LDFLAGS=-Tlink.ld
+# Added 32-bit compiling/linking flags for x86_64 system
+
+CFLAGS=-m32 -nostdlib -nostdinc -fno-builtin -fno-stack-protector
+LDFLAGS=-melf_i386 -Tlink.ld
 ASFLAGS=-felf
 
 all: $(SOURCES) link 
