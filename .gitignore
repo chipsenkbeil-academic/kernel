@@ -15,3 +15,13 @@
 *.exe
 *.out
 *.app
+
+# Vim swap files
+*.swp
+
+# Bochs log file
+bochsout.txt
+
+# Output file titled "kernel"
+kernel
+
