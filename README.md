@@ -16,6 +16,11 @@ build the kernel for different platforms; however, I will be learning on my
 Tools Used
 ----------
 * NASM  v2.10.09
-* GRUB  v???
+* GRUB  v??? (boot manager in floppy image)
 * BOCHS v2.6.2-1
+* GCC 4.8.0 20130411 (prerelease)
+
+Platform
+--------
+Developed on `x86_64` ArchLinux (a seriously out-of-date copy).
 
